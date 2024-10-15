@@ -6,7 +6,7 @@ This project is a **Weather-Based Outfit Generator** that provides outfit sugges
 
 - **Weather Data Retrieval**: Utilizes a weather API to fetch real-time weather information (temperature, rain, UV index, etc.) for any city the user searches.
 - **Outfit Suggestions**: Recommends weather-appropriate outfits for both males and females. The suggestions are tailored to weather conditions like rain and no rain.
-- - **City and Gender Selection**: The user can select a city and gender (Male/Female) to get relevant outfit suggestions.
+-  **City and Gender Selection**: The user can select a city and gender (Male/Female) to get relevant outfit suggestions.
 - **Sunscreen Recommendation**: Based on the UV index from the weather API, the app will suggest whether sunscreen is necessary.
 
 ## How It Works
