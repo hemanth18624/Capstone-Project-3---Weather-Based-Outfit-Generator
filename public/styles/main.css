@@ -1,0 +1,93 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url("../images/default.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    flex-direction: column;
+}
+.box{
+    background-color: #E5E4E2;
+    width:400px;
+    opacity: 0.95;
+    border-radius: 20px;
+    height: 600px;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    width:100%;
+}
+input{
+    font-size: 25px;
+    width:80%;
+    max-width: 800px;
+    height:20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-top: 30px;
+    margin-left: 18px;
+    outline: none;
+    transition:border-color 0.3 ease;
+}
+input::placeholder{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+select{
+    font-size: 25px;
+    width:90%;
+    max-width: 800px;
+    height:50px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid lightblue;
+    margin-top: 30px;
+    margin-left: 18px;
+    outline: none;
+    transition:border-color 0.3 ease;
+}
+select option:disabled {
+    color: white;
+}
+.output{
+    margin-top: 30px;
+    width:80%;
+    height:300px;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto; 
+}
+button{
+    margin-top: 20px;
+    width:30%;
+    height:50px;
+    background-color: white;
+    margin-left: 140px;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    font-size: 18px;
+}
+.message{
+    height:500px;
+    width : 500px;
+}
+
