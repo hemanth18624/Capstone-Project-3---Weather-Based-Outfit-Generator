@@ -273,21 +273,124 @@ const MaleminusTempRain = [["Insulated Jacket", "Thermal Shirt", "Snow Pants", "
 
 
 
-const FemalehighTempNoRainHighHumidity = [["Maxi Dress", "Wedge Sandals", "Sun Hat", "Sunglasses(Day Only)", "Bag"], ["Shoulder Top", "Linen Shorts", "Espadrilles", "Tote Bag", "Scarf"], ["Tank Top", "Flowwy Culottes", "Sneakers", "Hat", "Pack"], ["Cotton SunDress", "Flowwy Culettoes", "Sneakers", "Tote Bag", "Chic Glasses",], ["Button Down Shirt", "Midi Skirt", "Ballet flats", "Visor Hat", "BackPack"]];
-const FemalehighTempNoRainMediumHumidity = [["Chambray Shirt", "Denim Skirt", "Ankle Boots", "Straw Hat", "Mini Backpack"], ["Linen Blouse", "Cotton Trousers", "Sandals", "Kinimo", "Tote Bag"], ["Athletic Top", "Culottes", "Slipon Sneakers", "Cap", "Bag"], ["Wrap Dress", "Sandals", "Cardian", "Sunglasses(Day Only)", "Clutch Bag"], ["T-Shirt", "Midi Skirt", "Canvas", "Utility Jacket"]];
-const FemalehighTempNoRainLowHumidity = [["Cotton Kurta", "Denim Pant", "Shoes", "Hat", "Bag"], ["Maxi Dress", "Chiffon Dupatta", "Chappals", "NeckLace", "Sunglasses(Day Only)"], ["Wrap Top", "Plazzo Pants", "Sneakers", "Shrug", "BackPack"], ["Tank Top", "Anarkali Skirt", "Espadrilles", "Light Kinomo", "Earrings"], ["Button Down Shirt", "Salwar Pants", "Sandals", "HandBag"]];
-const FemalehighTempRainHighHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalehighTempRainMediumHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalehighTempRainLowHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalemediumTempNoRainHighHumidity = [["Maxi Dress", "Wedge Sandals", "Sun Hat", "Sunglasses(Day Only)", "Bag"], ["Shoulder Top", "Linen Shorts", "Espadrilles", "Tote Bag", "Scarf"], ["Tank Top", "Flowwy Culottes", "Sneakers", "Hat", "Pack"], ["Cotton SunDress", "Flowwy Culettoes", "Sneakers", "Tote Bag", "Chic Glasses",], ["Button Down Shirt", "Midi Skirt", "Ballet flats", "Visor Hat", "BackPack"]];
-const FemalemediumTempNoRainMediumHumidity = [["Chambray Shirt", "Denim Skirt", "Ankle Boots", "Straw Hat", "Mini Backpack"], ["Linen Blouse", "Cotton Trousers", "Sandals", "Kinimo", "Tote Bag"], ["Athletic Top", "Culottes", "Slipon Sneakers", "Cap", "Bag"], ["Wrap Dress", "Sandals", "Cardian", "Sunglasses(Day Only)", "Clutch Bag"], ["T-Shirt", "Midi Skirt", "Canvas", "Utility Jacket"]];
-const FemalemediumTempNoRainLowHumidity = [["Cotton Kurta", "Denim Pant", "Shoes", "Hat", "Bag"], ["Maxi Dress", "Chiffon Dupatta", "Chappals", "NeckLace", "Sunglasses(Day Only)"], ["Wrap Top", "Plazzo Pants", "Sneakers", "Shrug", "BackPack"], ["Tank Top", "Anarkali Skirt", "Espadrilles", "Light Kinomo", "Earrings"], ["Button Down Shirt", "Salwar Pants", "Sandals", "HandBag"]];
-const FemalemediumTempRainHighHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalemediumTempRainMediumHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalemediumTempRainLowHumidity = [["Anorak Jacket", "Cotton Tunic", "Leggins", "Shoes", "Umbrella"], ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"], ["Moisture Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"], ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"], ["Hoodie", "Print Leggins", "Flats", "WindBreaker", "Bucket Hat"]];
-const FemalelowTempNoRain = [["Sweater", "Midi Skirt", "Stiletto Boots", "Fur Coat", "Necklace"], ["BodyCon Dress", "Leather Boots", "Blazer", "Belted Waist", "Bold Lipstick"], ["Lace Crop Top", "Leather Pants", "Heels", "Duster Jacket", "Clutch Bag"], ["Long Sleeve BodySuit", "Skinny Jeans", "Ankle Boots", "Moto Jacket", "Necklace"]];
-const FemalelowTempRain = [["Trench Coat", "Logn Sleeve Top", "Skinny Jeans", "RainBoots", "Bag"], ["Anorak Jacket", "Lace BodySuit", "Leather Leggins", "Ankle Boots", "Earrings"], ["Rain Jacket", "BodyCon Sweater", " Rain Boots", "Necklace", "Hat"]];
-const FemaleminusTempNoRain = [["Thermal Turtleneck", "Long Skirt", "Heeled Boots", "Fur Coat", "Earrings"], ["Sweater", "Shawl", "Leather Boots", "Leather Jacket", "Bracelets"], ["BodyCon Top", "Trousers", "Ankle Booties", "Puffer Vest", "Scarf"]];
-const FemaleminusTempRain = [["SnowProof Coat", "Sleeve Top", "Leather Leggins", "Knee High Boots", "Beanie"], ["Thermal TurtleNeck", "Snow Jacket", "Snow Boots", "Printed Scarf", "Bag"], ["Wrap Dress", "SnowProof Anorak", "SnowProof Booties", "Umbrella", "Hat"]];
-
-
+const FemalehighTempNoRainHighHumidity = [
+    ["Maxi Dress", "Wedge Sandals", "Sun Hat", "Sunglasses(Day Only)", "Bag"],
+    ["Shoulder Top", "Linen Shorts", "Espadrilles", "Tote Bag", "Scarf"],
+    ["Tank Top", "Flowy Culottes", "Sneakers", "Hat", "Pack"],
+    ["Cotton SunDress", "Flowy Culottes", "Sneakers", "Tote Bag", "Chic Glasses"],
+    ["Button Down Shirt", "Midi Skirt", "Ballet Flats", "Visor Hat", "BackPack"]
+  ];
+  
+  const FemalehighTempNoRainMediumHumidity = [
+    ["Chambray Shirt", "Denim Skirt", "Ankle Boots", "Straw Hat", "Mini Backpack"],
+    ["Linen Blouse", "Cotton Trousers", "Sandals", "Kimono", "Tote Bag"],
+    ["Athletic Top", "Culottes", "Slip-on Sneakers", "Cap", "Bag"],
+    ["Wrap Dress", "Sandals", "Cardigan", "Sunglasses(Day Only)", "Clutch Bag"],
+    ["T-Shirt", "Midi Skirt", "Canvas Shoes", "Utility Jacket", "Bag"]
+  ];
+  
+  const FemalehighTempNoRainLowHumidity = [
+    ["Cotton Kurta", "Denim Pant", "Shoes", "Hat", "Bag"],
+    ["Maxi Dress", "Chiffon Dupatta", "Chappals", "Necklace", "Sunglasses(Day Only)"],
+    ["Wrap Top", "Plazzo Pants", "Sneakers", "Shrug", "BackPack"],
+    ["Tank Top", "Anarkali Skirt", "Espadrilles", "Light Kimono", "Earrings"],
+    ["Button Down Shirt", "Salwar Pants", "Sandals", "HandBag", "Scarf"]
+  ];
+  
+  const FemalehighTempRainHighHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalehighTempRainMediumHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalehighTempRainLowHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalemediumTempNoRainHighHumidity = [
+    ["Maxi Dress", "Wedge Sandals", "Sun Hat", "Sunglasses(Day Only)", "Bag"],
+    ["Shoulder Top", "Linen Shorts", "Espadrilles", "Tote Bag", "Scarf"],
+    ["Tank Top", "Flowy Culottes", "Sneakers", "Hat", "Pack"],
+    ["Cotton SunDress", "Flowy Culottes", "Sneakers", "Tote Bag", "Chic Glasses"],
+    ["Button Down Shirt", "Midi Skirt", "Ballet Flats", "Visor Hat", "BackPack"]
+  ];
+  
+  const FemalemediumTempNoRainMediumHumidity = [
+    ["Chambray Shirt", "Denim Skirt", "Ankle Boots", "Straw Hat", "Mini Backpack"],
+    ["Linen Blouse", "Cotton Trousers", "Sandals", "Kimono", "Tote Bag"],
+    ["Athletic Top", "Culottes", "Slip-on Sneakers", "Cap", "Bag"],
+    ["Wrap Dress", "Sandals", "Cardigan", "Sunglasses(Day Only)", "Clutch Bag"],
+    ["T-Shirt", "Midi Skirt", "Canvas Shoes", "Utility Jacket", "Bag"]
+  ];
+  
+  const FemalemediumTempNoRainLowHumidity = [
+    ["Cotton Kurta", "Denim Pant", "Shoes", "Hat", "Bag"],
+    ["Maxi Dress", "Chiffon Dupatta", "Chappals", "Necklace", "Sunglasses(Day Only)"],
+    ["Wrap Top", "Plazzo Pants", "Sneakers", "Shrug", "BackPack"],
+    ["Tank Top", "Anarkali Skirt", "Espadrilles", "Light Kimono", "Earrings"],
+    ["Button Down Shirt", "Salwar Pants", "Sandals", "HandBag", "Scarf"]
+  ];
+  
+  const FemalemediumTempRainHighHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalemediumTempRainMediumHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalemediumTempRainLowHumidity = [
+    ["Anorak Jacket", "Cotton Tunic", "Leggings", "Shoes", "Umbrella"],
+    ["Maxi Dress", "WaterProof Jacket", "Rain Boots", "Bag", "Sunglasses(Day Only)"],
+    ["Moisture-Wicking Blouse", "Wide Leg Trousers", "Sandals", "Rain Poncho", "Bracelet"],
+    ["Cotton Kurti", "Joggers", "Sneakers", "Raincoat", "Scarf"],
+    ["Hoodie", "Print Leggings", "Flats", "WindBreaker", "Bucket Hat"]
+  ];
+  
+  const FemalelowTempNoRain = [
+    ["Sweater", "Midi Skirt", "Stiletto Boots", "Fur Coat", "Necklace"],
+    ["BodyCon Dress", "Leather Boots", "Blazer", "Belted Waist", "Bold Lipstick"],
+    ["Lace Crop Top", "Leather Pants", "Heels", "Duster Jacket", "Clutch Bag"],
+    ["Long Sleeve BodySuit", "Skinny Jeans", "Ankle Boots", "Moto Jacket", "Necklace"]
+  ];
+  
+  const FemalelowTempRain = [
+    ["Trench Coat", "Long Sleeve Top", "Skinny Jeans", "Rain Boots", "Bag"],
+    ["Anorak Jacket", "Lace BodySuit", "Leather Leggings", "Ankle Boots", "Earrings"],
+    ["Rain Jacket", "BodyCon Sweater", "Rain Boots", "Necklace", "Hat"]
+  ];
+  
+  const FemaleminusTempNoRain = [
+    ["Thermal Turtleneck", "Long Skirt", "Heeled Boots", "Fur Coat", "Earrings"],
+    ["Sweater", "Shawl", "Leather Boots", "Leather Jacket", "Bracelets"],
+    ["BodyCon Top", "Trousers", "Ankle Booties", "Puffer Vest", "Scarf"]
+  ];
+  
+  const FemaleminusTempRain = [
+    ["SnowProof Coat", "Sleeve Top", "Leather Leggings", "Knee High Boots", "Beanie"],
+    ["Thermal TurtleNeck", "Snow Jacket", "Snow Boots", "Printed Scarf", "Bag"],
+    ["Wrap Dress", "SnowProof Anorak", "SnowProof Booties", "Umbrella", "Hat"]
+  ];
+  
