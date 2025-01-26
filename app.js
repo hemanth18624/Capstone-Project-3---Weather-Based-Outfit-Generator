@@ -12,8 +12,14 @@ var extraContent = [];
 var city = [];
 var gender = [];
 app.get("/", (req, res) => {
-    res.render("index.ejs", { content,extraContent,city,gender });
+    let dayCheck = undefined;
+    res.render("index.ejs", { content,extraContent,city,gender,dayCheck });
+    
 });
+
+app.get("/results",async (req,res)=>{
+    return res.status(400).json({error:"Requested URL does not exist"})
+})
 
 app.post("/results", async (req, res) => {
     try{
@@ -30,6 +36,7 @@ app.post("/results", async (req, res) => {
     const rainfall = result.data.current.precip_mm;
     const humidity = result.data.current.humidity;
     const uv = result.data.current.uv;
+    const dayCheck = result.data.current.is_day;
 
     console.log(city);
     console.log(gender);
@@ -237,6 +244,7 @@ app.post("/results", async (req, res) => {
         extraContent : extra,
         city : city,
         gender : gender,
+        dayCheck : dayCheck,
     });
     } catch(error){
         console.log(error.response.data);
