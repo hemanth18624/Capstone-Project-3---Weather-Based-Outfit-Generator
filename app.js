@@ -401,8 +401,4 @@ const FemalehighTempNoRainHighHumidity = [
     ["Thermal TurtleNeck", "Snow Jacket", "Snow Boots", "Printed Scarf", "Bag"],
     ["Wrap Dress", "SnowProof Anorak", "SnowProof Booties", "Umbrella", "Hat"]
   ];
-<<<<<<< HEAD
-  
-=======
-  
->>>>>>> a035c3415ac9cfd5a7aa75c7fb32c54c9a172ebd
+
